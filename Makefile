@@ -6,7 +6,7 @@
 #    By: cltan <cltan@student.42singapore.sg>       +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/11/22 15:50:47 by cltan             #+#    #+#              #
-#    Updated: 2025/12/11 15:16:54 by cltan            ###   ########.fr        #
+#    Updated: 2025/12/11 19:13:34 by cltan            ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -43,4 +43,4 @@ fclean: clean
 
 re: fclean all
 
-.PHONY : all bonus clean fclean re
+.PHONY : all clean fclean re

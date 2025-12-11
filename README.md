@@ -1,7 +1,7 @@
 *This project has been created as part of the 42 curriclum by cltan.*
 
 # Description
-## ft_libft: cltan's 42 C library
+### ft_libft: cltan's 42 C library
 
 Personal static library ('libft.a') consisting re-implementations of standard C library functions and several utility functions.
 
@@ -45,6 +45,7 @@ Navigate to the libft_tester direction and '~ make' to start the tester.
 
 #### To use personal main.c file
 
+Naigate to the cltan_tester that contains main.c file.
 
 # Resources
 
