@@ -4,54 +4,80 @@
 
 static void	test_isalpha(void)
 {
-	char c;
+	int c = 'A';
+	printf("For %c\nisalpha:\t%d\nft_isalpha:\t%d\n\n", c, isalpha(c), ft_isalpha(c));
+
+	c = 'Z';
+	printf("For %c\nisalpha:\t%d\nft_isalpha:\t%d\n\n", c, isalpha(c), ft_isalpha(c));
 
 	c = 'a';
-	printf("Char: %d, Org: %d, ft: %d\n", c, isalpha(c), ft_isalpha(c));
-	c = 'A';
-	printf("Char: %d, Org: %d, ft: %d\n", c, isalpha(c), ft_isalpha(c));
-	c = '0';
-	printf("Char: %d, Org: %d, ft: %d\n", c, isalpha(c), ft_isalpha(c));
+	printf("For %c\nisalpha:\t%d\nft_isalpha:\t%d\n\n", c, isalpha(c), ft_isalpha(c));
+
+	c = 'z';
+	printf("For %c\nisalpha:\t%d\nft_isalpha:\t%d\n\n", c, isalpha(c), ft_isalpha(c));
+
+	c = ' ';
+	printf("For %c\nisalpha:\t%d\nft_isalpha:\t%d\n\n", c, isalpha(c), ft_isalpha(c));
+
 	c = '@';
-	printf("Char: %d, Org: %d, ft: %d\n", c, isalpha(c), ft_isalpha(c));
+	printf("For %c\nisalpha:\t%d\nft_isalpha:\t%d\n\n", c, isalpha(c), ft_isalpha(c));
+
 	c = '\\';
-	printf("Char: %d, Org: %d, ft: %d\n", c, isalpha(c), ft_isalpha(c));
+	printf("For %c\nisalpha:\t%d\nft_isalpha:\t%d\n\n", c, isalpha(c), ft_isalpha(c));
+
+	c = '0';
+	printf("For %c\nisalpha:\t%d\nft_isalpha:\t%d\n\n", c, isalpha(c), ft_isalpha(c));
 }
 
 static void	test_isdigit(void)
 {
-	char c;
+	int c = '0';
+	printf("For %c\nisdigit:\t%d\nft_isdigit:\t%d\n\n", c, isdigit(c), ft_isdigit(c));
 
-	c = '0';
-	printf("Char: %c, Org: %d, ft: %d\n", c, isdigit(c), ft_isdigit(c));
 	c = '9';
-	printf("Char: %c, Org: %d, ft: %d\n", c, isdigit(c), ft_isdigit(c));
+	printf("For %c\nisdigit:\t%d\nft_isdigit:\t%d\n\n", c, isdigit(c), ft_isdigit(c));
+
 	c = 'A';
-	printf("Char: %c, Org: %d, ft: %d\n", c, isdigit(c), ft_isdigit(c));
+	printf("For %c\nisdigit:\t%d\nft_isdigit:\t%d\n\n", c, isdigit(c), ft_isdigit(c));
+
 	c = '\\';
-	printf("Char: %c, Org: %d, ft: %d\n", c, isdigit(c), ft_isdigit(c));
+	printf("For %c\nisdigit:\t%d\nft_isdigit:\t%d\n\n", c, isdigit(c), ft_isdigit(c));
+
+	c = ' ';
+	printf("For %c\nisdigit:\t%d\nft_isdigit:\t%d\n\n", c, isdigit(c), ft_isdigit(c));
+
+	c = '@';
+	printf("For %c\nisdigit:\t%d\nft_isdigit:\t%d\n\n", c, isdigit(c), ft_isdigit(c));
 }
 
 static void	test_isalnum(void)
 {
-	char c;
+	int c = '0';
+	printf("For %c\nisalnum:\t%d\nft_isalnum:\t%d\n\n", c, isalnum(c), ft_isalnum(c));
 
-	c = '0';
-	printf("Char: %c, Org: %d, ft: %d\n", c, isalnum(c), ft_isalnum(c));
 	c = '9';
-	printf("Char: %c, Org: %d, ft: %d\n", c, isalnum(c), ft_isalnum(c));
+	printf("For %c\nisalnum:\t%d\nft_isalnum:\t%d\n\n", c, isalnum(c), ft_isalnum(c));
+	
 	c = 'A';
-	printf("Char: %c, Org: %d, ft: %d\n", c, isalnum(c), ft_isalnum(c));
-	c = 'a';
-	printf("Char: %c, Org: %d, ft: %d\n", c, isalnum(c), ft_isalnum(c));
-	c = 'z';
-	printf("Char: %c, Org: %d, ft: %d\n", c, isalnum(c), ft_isalnum(c));
+	printf("For %c\nisalnum:\t%d\nft_isalnum:\t%d\n\n", c, isalnum(c), ft_isalnum(c));
+	
 	c = 'Z';
-	printf("Char: %c, Org: %d, ft: %d\n", c, isalnum(c), ft_isalnum(c));
+	printf("For %c\nisalnum:\t%d\nft_isalnum:\t%d\n\n", c, isalnum(c), ft_isalnum(c));
+	
+	c = 'a';
+	printf("For %c\nisalnum:\t%d\nft_isalnum:\t%d\n\n", c, isalnum(c), ft_isalnum(c));
+	
+	c = 'z';
+	printf("For %c\nisalnum:\t%d\nft_isalnum:\t%d\n\n", c, isalnum(c), ft_isalnum(c));
+	
+	c = ' ';
+	printf("For %c\nisalnum:\t%d\nft_isalnum:\t%d\n\n", c, isalnum(c), ft_isalnum(c));
+	
 	c = '\\';
-	printf("Char: %c, Org: %d, ft: %d\n", c, isalnum(c), ft_isalnum(c));
+	printf("For %c\nisalnum:\t%d\nft_isalnum:\t%d\n\n", c, isalnum(c), ft_isalnum(c));
+	
 	c = '@';
-	printf("Char: %c, Org: %d, ft: %d\n", c, isalnum(c), ft_isalnum(c));
+	printf("For %c\nisalnum:\t%d\nft_isalnum:\t%d\n\n", c, isalnum(c), ft_isalnum(c));
 }
 
 static void	test_isascii(void)
@@ -1050,22 +1076,25 @@ static void	test_itoa()
 /* Function for comparison with ft_strmapi */
 	// cannot use helper function, so define inline
 	// (still allowed because it’s not a helper for looping logic)
-	char upper_func(unsigned int i, char c) {
-		(void)i;
-		if (c >= 'a' && c <= 'z')
-			return c - 32;
-		return c;
-	}
+char upper_func(unsigned int i, char c)
+{
+	(void)i;
+	if (c >= 'a' && c <= 'z')
+		return c - 32;
+	return c;
+}
 
-	char index_plus_func(unsigned int i, char c) {
+char index_plus_func(unsigned int i, char c)
+{	
 		return c + i % 5; // just small predictable change
-	}
+}
 
-	char toggle_func(unsigned int i, char c) {
-		if (i % 2 == 0 && c >= 'a' && c <= 'z')
-			return c - 32;
-		return c;
-	}
+char toggle_func(unsigned int i, char c)
+{
+	if (i % 2 == 0 && c >= 'a' && c <= 'z')
+		return c - 32;
+	return c;
+}
 
 static void	test_strmapi()
 {
@@ -1129,22 +1158,22 @@ static void	test_strmapi()
 }
 
 void upper_func(unsigned int i, char *c)
-	{
-		(void)i;
-		if (*c >= 'a' && *c <= 'z')
-			*c = *c - 32;
-	}
+{
+	(void)i;
+	if (*c >= 'a' && *c <= 'z')
+		*c = *c - 32;
+}
 
-	void index_shift_func(unsigned int i, char *c)
-	{
-		*c = *c + (i % 3);
-	}
+void index_shift_func(unsigned int i, char *c)
+{
+	*c = *c + (i % 3);
+}
 
-	void toggle_even_func(unsigned int i, char *c)
-	{
-		if (i % 2 == 0 && *c >= 'a' && *c <= 'z')
-			*c = *c - 32;
-	}
+void toggle_even_func(unsigned int i, char *c)
+{
+	if (i % 2 == 0 && *c >= 'a' && *c <= 'z')
+		*c = *c - 32;
+}
 
 static void	test_striteri();
 {

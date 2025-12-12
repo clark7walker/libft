@@ -6,7 +6,7 @@
 /*   By: cltan <cltan@student.42singapore.sg>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/19 01:40:58 by cltan             #+#    #+#             */
-/*   Updated: 2025/12/11 19:33:07 by cltan            ###   ########.fr       */
+/*   Updated: 2025/12/12 15:06:10 by cltan            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@
 
 # include "libft.h"
 # include <ctype.h>
-# include <string.h>
+# include <bsd/string.h>
 # include <stddef.h>
 # include <stdlib.h>
 # include <unistd.h>

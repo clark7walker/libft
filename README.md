@@ -43,10 +43,6 @@ For testing purpose, you may git clone https://github.com/clark7walker/libft.git
 
 Navigate to the libft_tester direction and '~ make' to start the tester.
 
-#### To use personal main.c file
-
-Naigate to the cltan_tester that contains main.c file.
-
 # Resources
 
 **Official Documentation**
